@@ -17,6 +17,7 @@
 		3102F62C26C0402D00E167D1 /* TVShowImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F62B26C0402D00E167D1 /* TVShowImage.swift */; };
 		3102F62E26C040D600E167D1 /* ShowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F62D26C040D600E167D1 /* ShowViewModel.swift */; };
 		3102F63126C0538500E167D1 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3102F63026C0538500E167D1 /* SDWebImageSwiftUI */; };
+		3102F63326C0564600E167D1 /* TVShowDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F63226C0564600E167D1 /* TVShowDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		3102F62926C03E9300E167D1 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
 		3102F62B26C0402D00E167D1 /* TVShowImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowImage.swift; sourceTree = "<group>"; };
 		3102F62D26C040D600E167D1 /* ShowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewModel.swift; sourceTree = "<group>"; };
+		3102F63226C0564600E167D1 /* TVShowDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				3102F61126C03B5900E167D1 /* ShowsView.swift */,
+				3102F63226C0564600E167D1 /* TVShowDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				3102F62C26C0402D00E167D1 /* TVShowImage.swift in Sources */,
 				3102F62626C03DDE00E167D1 /* Schedule.swift in Sources */,
+				3102F63326C0564600E167D1 /* TVShowDetailView.swift in Sources */,
 				3102F62426C03CE100E167D1 /* TVShow.swift in Sources */,
 				3102F62A26C03E9300E167D1 /* Rating.swift in Sources */,
 				3102F62E26C040D600E167D1 /* ShowViewModel.swift in Sources */,
