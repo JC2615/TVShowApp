@@ -8,5 +8,5 @@
 import Foundation
 
 struct Rating: Decodable {
-    var average: Double
+    var average: Double?
 }

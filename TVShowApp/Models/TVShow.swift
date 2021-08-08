@@ -15,7 +15,7 @@ struct TVShow: Decodable, Identifiable {
     var language: String
     var genres: [String]
     var status: String
-    var officialSite: URL
+    var officialSite: URL?
     var schedule: Schedule
     var rating: Rating
     var image: TVShowImage

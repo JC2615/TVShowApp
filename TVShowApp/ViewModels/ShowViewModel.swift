@@ -21,14 +21,16 @@ class ShowViewModel: ObservableObject {
                         let decoder = JSONDecoder()
                         do {
                             let shows = try decoder.decode([TVShow].self, from: data)
-                            self.shows = shows
+                            DispatchQueue.main.async {
+                                self.shows = shows
+                            }
                         }
                         catch {
                             print(error.localizedDescription)
                         }
                     }
                 }
-            }
+            }.resume()
         }
     }
 }

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3102F61226C03B5900E167D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F61126C03B5900E167D1 /* ContentView.swift */; };
+		3102F61226C03B5900E167D1 /* ShowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F61126C03B5900E167D1 /* ShowsView.swift */; };
 		3102F61426C03B6000E167D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3102F61326C03B6000E167D1 /* Assets.xcassets */; };
 		3102F61726C03B6000E167D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3102F61626C03B6000E167D1 /* Preview Assets.xcassets */; };
 		3102F62426C03CE100E167D1 /* TVShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F62326C03CE100E167D1 /* TVShow.swift */; };
@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		3102F60C26C03B5900E167D1 /* TVShowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVShowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3102F61126C03B5900E167D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3102F61126C03B5900E167D1 /* ShowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsView.swift; sourceTree = "<group>"; };
 		3102F61326C03B6000E167D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3102F61626C03B6000E167D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3102F61826C03B6000E167D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		3102F62026C03C1E00E167D1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3102F61126C03B5900E167D1 /* ContentView.swift */,
+				3102F61126C03B5900E167D1 /* ShowsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,7 +183,7 @@
 				3102F62A26C03E9300E167D1 /* Rating.swift in Sources */,
 				3102F62E26C040D600E167D1 /* ShowViewModel.swift in Sources */,
 				3102F62826C03E3A00E167D1 /* TVShowAppApp.swift in Sources */,
-				3102F61226C03B5900E167D1 /* ContentView.swift in Sources */,
+				3102F61226C03B5900E167D1 /* ShowsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
