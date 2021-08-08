@@ -17,13 +17,22 @@ struct TVShowDetailView: View {
                     .resizable()
                     .indicator(.activity)
                     .aspectRatio(contentMode: .fit)
-                VStack {
+                VStack(alignment: .center) {
                     Spacer()
                     Text(tvShow.name)
                         .font(.largeTitle)
                     Spacer()
                     Text(tvShow.status)
                         .font(.title)
+                    Spacer()
+                    Text("\(tvShow.language)")
+                        .font(.title)
+                    Spacer()
+                    List {
+                        ForEach(tvShow.genres, id: \.self){ genre in
+                            Text(genre)
+                        }
+                    }
                     Spacer()
                 }
                 
